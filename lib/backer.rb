@@ -13,6 +13,7 @@ class Backer
     @backed_projects << project
     @backed_projects << backer
     project.backers = self
+    backer.backers = self
     
     # b1 = Backer.new(name)
     # p1 = Project.new(name)
