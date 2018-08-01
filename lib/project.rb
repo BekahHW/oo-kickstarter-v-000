@@ -12,7 +12,7 @@ class Project
     @backers << backer
       backer.backed_projects = self
     # backed_projects << project
-    @project.backers << self
+    # project.backers << self
   end
   
   
