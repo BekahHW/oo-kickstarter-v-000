@@ -6,7 +6,7 @@ class Project
   def initialize(title)
     @title = title
     # @backers = backers
-      @@backers = []
+      @backers = []
 
   end
   
@@ -15,7 +15,7 @@ class Project
     # project1 = Project.new(title)
    
     # @@backers <<  backer1.Project 
-     @@backers << backer
+     @backers << backer
       backer.backed_projects = self
 
   end
