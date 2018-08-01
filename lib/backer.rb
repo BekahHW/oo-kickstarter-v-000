@@ -15,7 +15,7 @@ class Backer
     
     b1 = Backer.new(name)
     p1 = Project.new(name)
-    b1.back_project(p1) << self
+    b1.back_project(p1) << @backed_projects
   end
  
  describe 'Backer - More Advanced #back_project' do
