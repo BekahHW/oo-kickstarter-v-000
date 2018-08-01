@@ -13,5 +13,8 @@ class Project
       backer.backed_projects = self
   end
   
+  
+    backed_projects << project
+    project.backers << self
 
 end
