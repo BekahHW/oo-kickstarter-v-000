@@ -14,7 +14,7 @@ class Project
    
     # @@backers <<  backer1.Project 
      @@backers << backer
-        backer.backed_projects = self
+        # backer.backed_projects = self
 
   end
   
