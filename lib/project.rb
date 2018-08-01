@@ -2,7 +2,7 @@ class Project
   
   attr_accessor :title, :backers
   
-  @@backers = []
+  @backers = []
   
   def initialize(title)
     @title = title
@@ -14,7 +14,7 @@ class Project
     # project1 = Project.new(title)
    
     # @@backers <<  backer1.Project 
-    @backers << backer
+     @backers << backer
         backer.backed_projects = self
 
   end
