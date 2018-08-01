@@ -2,8 +2,6 @@ class Backer
   
   attr_accessor :backed_projects, :name
   
-  # @@backers = []
-  
   def initialize(name)
     @name = name
     @backed_projects = []
