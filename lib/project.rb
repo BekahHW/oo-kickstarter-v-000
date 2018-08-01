@@ -6,7 +6,7 @@ class Project
   
   def initialize(title)
     @title = title
-    @@backers = backers
+    @backer = backer
   end
   
   def add_backer(backer)
