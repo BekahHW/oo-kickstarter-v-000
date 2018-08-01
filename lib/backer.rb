@@ -11,11 +11,12 @@ class Backer
   
   def back_project(project)
     @backed_projects << project
+    @backed_projects << backer
     project.backers = self
     
-    b1 = Backer.new(name)
-    p1 = Project.new(name)
-    b1.back_project(p1) << @backed_projects
+    # b1 = Backer.new(name)
+    # p1 = Project.new(name)
+    # b1.back_project(p1) << @backed_projects
   end
  
  describe 'Backer - More Advanced #back_project' do
