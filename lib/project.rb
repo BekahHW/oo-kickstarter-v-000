@@ -6,6 +6,7 @@ class Project
   
   def initialize(title)
     @title = title
+    @@backers = backers
   end
   
   def add_backer(backer)
@@ -14,7 +15,7 @@ class Project
    
     # @@backers <<  backer1.Project 
      @@backers << backer
-        # backer.backed_projects = self
+        backer.backed_projects = self
 
   end
   
